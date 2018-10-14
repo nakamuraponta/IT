@@ -1,0 +1,50 @@
+body{
+	/* background-image: url(P1110014.jpg); */
+	background-color: lightblue;
+
+}
+.container{
+	padding: 50px;
+	margin: 50px 50px;
+	
+}
+.user,.pass,.radio{
+	display: flex;
+}
+.user label,.pass label{
+	flex:1;
+	margin-top:10px;
+}
+.user input,.pass input{
+	flex:2;
+	margin-top:10px;
+}
+/* .user,.pass,.btn{
+	padding:10px;
+} */
+.user label,.pass label,.btn input,.radio label,.check label{
+	font-size:16px;
+	margin-top:20px;
+	
+}
+
+.btn1{
+	margin: 20px 100px;
+	padding: 40px;
+	
+}
+#btn{
+	padding: 10px;
+}
+#male{
+	margin: 20px 200px;
+}
+#color{
+	margin:20px 70px;
+}
+.text textarea{
+	margin:20px 110px;
+}
+.select select{
+	margin: 20px 65px;
+}

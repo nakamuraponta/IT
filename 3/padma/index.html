@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FORMS</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form action="/form.php" method="GET/POST">
+			<div class="user">
+			<label>USERNAME</label><br>
+			<input type="text" name="uname" placeholder="ENTER USERNAME" value=""/>
+			</div>
+
+			<div class="pass">
+			<label>PASSWORD</label><br>
+			<input type="password" name="psw" placeholder="ENTER PASSWORD" value=""/>
+			</div>
+
+			<div class="gender">
+			<label>GENDER</label>
+			<label>Male</label>
+			<input type="radio" name="gender" value=""/>
+			<label>Female</label>
+			<input type="radio" name="gender" value=""/>
+			</div>
+
+			
+			<div class="check">
+			<label>Select your favourite colors</label>
+			<input type="checkbox" name="color" value="blue"/>
+			<input type="checkbox" name="color" value="green"/>
+			<input type="checkbox" name="color" value="red"/>
+			</div>
+
+			<div class="text">
+			<label>Write your feedback</label>
+			<textarea name="bio" rows="10" cols="40">type something here...</textarea>
+			</div>
+
+			<div class="select">
+			<label>Select your favourite brand</label>
+			<select>
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="mercedes">Mercedes</option>
+				  <option value="audi">Audi</option>
+			</select>
+			</div>
+
+			<div class="btn">
+				<input id="btn1" type="submit" value="Send">
+			</div>
+		</form>
+
+		</form>
+
+	
+</body>
+</html>
