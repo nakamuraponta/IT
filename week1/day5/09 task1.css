@@ -1,0 +1,30 @@
+.container {
+    margin-top: 150px;
+    max-width: 22.5%;
+}
+
+.A {
+	margin-bottom: -30px;
+	opacity:0;
+}
+
+.B {
+	margin-top: 20px;
+	margin-left: 120px;
+	height: 65px;
+	width: 65px;
+	font-weight: bold; 
+	font-size: 50px;
+	padding-top: -20px; 
+	padding-left: 12.5px;
+	color: white;
+	background-color: purple;
+	border-radius: 10px;
+	border: solid rgba(0,0,0,0);
+}
+
+.button {
+	width: 99%;
+	height: 40px;
+	background-color: purple;
+}

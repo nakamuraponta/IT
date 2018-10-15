@@ -1,0 +1,108 @@
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 150px;
+	background: red;
+}
+
+.header img{
+	float: left;
+	padding: 5px;
+	height: 100px;
+	width: 350px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.demo{
+	width: 980px;
+	height: 100px;
+	background: orange;
+	float: right;
+	white-space: nowrap;
+	position: absolute;
+	top: 25px;
+	left: 420px;
+}
+
+.bar{
+	width: 100%;
+	height: 50px;
+	background: black;
+	color: white;
+}
+
+.button{
+	float: right;
+	display: flex;
+}
+
+.button a{
+	border-right:2px solid white;
+	margin: 0pt;
+	padding: 9.9pt 10pt;
+}
+
+.button a:hover{
+	background: white
+}
+
+
+.mainleft{
+	width: 60%;
+	height: 450px;
+	background: blue;
+	color: white;
+	float: left;
+	font-size: 100px;
+	font-weight: bold;
+
+}
+
+.info{
+	transform: rotate(-30deg);
+	white-space: nowrap
+}
+
+.mainright1{
+	width: 40%;
+	height: 150px;
+	background: green;
+	float: right
+}
+
+.mainright2{
+	width: 40%;
+	height: 150px;
+	background: gray;
+	float: right
+}
+
+.mainright3{
+	width: 40%;
+	height: 150px;
+	background: green;
+	float: right
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background: red;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+* {
+margin: 0;
+padding: 0;
+}

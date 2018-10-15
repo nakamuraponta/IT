@@ -1,0 +1,20 @@
+.header{
+	background-color: green;
+	color: white
+	font-size:25px;
+}
+
+.header img{
+	float: left;
+	padding: 5px;
+
+}
+
+.footer{
+	background-color: pink;
+	color: black;
+	text-align: center;
+	font-size:25px;
+	font-style: italic;
+	margin-top: 450px
+}
