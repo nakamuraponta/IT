@@ -1,0 +1,28 @@
+body {
+	background: url(sea.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+
+.wrapper {
+    margin-top: 150px;
+    margin-left: 225px;
+    width: 650px;
+    height: 400px;
+}
+
+.left {
+	background-color: rgba(225,225,225,0.5);
+	float:left;
+	width:50%;
+	height:100%;
+}
+
+.right {
+	background-color: rgba(225,225,225,1);
+	float:right;
+	width:50%;
+	height:100%;
+}
