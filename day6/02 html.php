@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Welcome to php</h1>
+
+	<?php 
+	echo "Hello"; 
+	?>
+</body>
+</html>
