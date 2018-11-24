@@ -1,0 +1,42 @@
+body {
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+
+}
+
+.container {
+	margin-top: 150px;
+	width: 1000px;
+	height: 450px;
+	border-radius: 25px;
+	background-color: skyblue;
+	color: purple;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 50px;
+}
+
+#quoteBtn {
+	width: 250px;
+	height: 35px;
+	border-radius: 10px;
+	background-color: pink;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#quote {
+	width: 890px;
+	height: 60px;
+	background-color: white;
+	padding-top: 30px;
+	border-left: solid 15px orange;
+}
+
+#quoteAuthor {
+	padding-top: 20px;
+}

@@ -1,0 +1,25 @@
+body{
+	background: url(image/guitar.png);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+h3{
+	border:2px solid rgba(255,255,255,0.5);
+	margin:10px 15px;
+	padding:20px;
+}
+p{
+	color: green;
+	font-size:25px;
+}
+#heading1{
+	color: rgb(255,0,0);
+}
+.para{
+	border:2px dotted blue;
+}
+.para2{
+	font-weight: bold;
+	font-family: monospace;
+}
